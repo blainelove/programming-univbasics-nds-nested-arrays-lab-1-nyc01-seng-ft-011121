@@ -36,8 +36,8 @@ end
 
 def matrix_lookup(matrix, row, column)
   list=[CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  list[1][1]
-  p list
+  list[1][1]S
+  
 
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
