@@ -17,8 +17,8 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  list=[CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  list.sort
+  list=[CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  
 
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
