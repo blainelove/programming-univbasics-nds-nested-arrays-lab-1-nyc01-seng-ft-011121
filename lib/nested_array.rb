@@ -35,7 +35,7 @@ end
 
 
 def matrix_lookup(matrix, row, column)
-  list=[CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  list=[CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   list[row][column]
 
 
